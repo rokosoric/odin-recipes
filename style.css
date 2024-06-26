@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+}
+
+img {
+  border: 5px solid salmon;
+}
+
+.img-container {
+  width: 300px;
+  margin: auto;
+
+}
+
+h2 {
+  color: red;
+  padding-left: 10px;
+  border-left: 2px solid red;
+}
+
+.recipe-links {
+  text-align: center;
+  background-color: salmon;
+  width: 20em;
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.recipe-links ul {
+  list-style: none;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: darkred;
+}
+
+a:hover {
+  background-color: beige;
+}
