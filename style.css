@@ -1,15 +1,28 @@
+/*
+===========
+Homepage
+===========
+*/
+
+
+
+
 h1 {
   text-align: center;
 }
 
-img {
-  border: 5px solid salmon;
+.home-macncheese,
+.home-beef-cheddar-sliders,
+.home-lasagna {
+  width: 20vw;
+  border: 2px solid black;
 }
 
-.img-container {
-  width: 300px;
-  margin: auto;
-
+.recipe-container {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px;
+  background-color: rgb(221, 173, 134);
 }
 
 h2 {
@@ -19,20 +32,20 @@ h2 {
 }
 
 .recipe-links {
-  text-align: center;
-  background-color: salmon;
-  width: 20em;
-  margin: auto;
-  padding: 5px;
+  background-color: rgb(243, 243, 243);
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
   border-radius: 10px;
 }
 
-.recipe-links ul {
-  list-style: none;
+a {
+  text-decoration: none;
+  font-size: 1.2em;
 }
 
 a:link {
-  color: red;
+  color: darkred;
 }
 
 a:visited {
@@ -40,5 +53,18 @@ a:visited {
 }
 
 a:hover {
-  background-color: beige;
+  text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(236, 236, 236);
+}
+
+.footer-p {
+  color: rgb(75, 75, 75);
+  text-align: center;
 }
